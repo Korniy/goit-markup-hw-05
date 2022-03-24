@@ -93,6 +93,8 @@ span {
 }
 
 .nav-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -110,6 +112,8 @@ span {
 }
 
 .header-mail {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   display: flex;
   align-items: center;
 
@@ -124,6 +128,8 @@ span {
 }
 
 .header-phone {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   display: flex;
   align-items: center;
 
@@ -200,6 +206,8 @@ span {
 }
 
 .hero-btn {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   min-width: 200px;
   padding: 9px 32px;
   border-radius: 4px;
@@ -368,6 +376,8 @@ span {
 }
 
 .team-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -375,6 +385,10 @@ span {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+}
+
+.team-icons {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link:hover .team-icons,
@@ -435,11 +449,17 @@ span {
 }
 
 .clients-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   padding: 16px 32px 16px 32px;
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
   width: 170px;
   height: 92px;
+}
+
+.team-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Секція підвал FOOTER */
@@ -472,6 +492,8 @@ span {
 }
 
 .adress-desk {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   display: block;
 
   font-style: normal;
@@ -487,6 +509,8 @@ span {
 }
 
 .adress-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   display: block;
 
   font-style: normal;
@@ -526,6 +550,8 @@ span {
 }
 
 .icon-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -559,6 +585,9 @@ span {
 }
 
 .portfolio-btn {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   padding: 5px 22px;
   border-radius: 4px;
   border: 1px solid var(--second-light-bg);
@@ -597,6 +626,8 @@ span {
 }
 
 .portfolio-second-item {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   flex-basis: calc((100% - 90px) / 3);
   /* flex-basis: calc(100% / 3 - 60px); */
 }

@@ -323,6 +323,30 @@ span {
   margin-right: 30px;
 }
 
+.work-item {
+  position: relative;
+}
+
+.work-text {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+
+  padding: 27px 0px 27px 0px;
+  width: 370px;
+  height: 70px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-light-bg);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
 /* Секція команда TEAM */
 .team {
   background-color: var(--second-light-bg);
